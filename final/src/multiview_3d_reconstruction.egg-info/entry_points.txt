@@ -1,0 +1,4 @@
+[console_scripts]
+reconstruct3d-app = reconstruction3d.app:main
+reconstruct3d-infer = reconstruction3d.infer:main
+reconstruct3d-train = reconstruction3d.train:main

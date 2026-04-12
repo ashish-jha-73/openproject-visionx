@@ -1,0 +1,33 @@
+{
+  "dataset": {
+    "dataset_type": "shapenet_pointcloud",
+    "dataset_root": "shapenet",
+    "train_split": "train",
+    "val_split": "val",
+    "category_filter": ["03001627"],
+    "max_train_samples": 500,
+    "max_val_samples": 100,
+    "max_test_samples": 100,
+    "num_views": 4,
+    "image_size": 64,
+    "voxel_size": 32,
+    "synthetic_samples": 256,
+    "num_points": 512,
+    "use_normals": true
+  },
+  "training": {
+    "batch_size": 8,
+    "epochs": 2,
+    "learning_rate": 0.001,
+    "weight_decay": 0.00001,
+    "device": "cpu",
+    "num_workers": 0,
+    "checkpoint_dir": "checkpoints_pointcloud",
+    "log_every": 10
+  },
+  "app": {
+    "checkpoint_path": "checkpoints/best.pt",
+    "host": "127.0.0.1",
+    "port": 7860
+  }
+}

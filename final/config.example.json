@@ -1,0 +1,27 @@
+{
+  "dataset": {
+    "dataset_type": "synthetic",
+    "dataset_root": "data/shapenet",
+    "train_split": "train",
+    "val_split": "val",
+    "num_views": 4,
+    "image_size": 64,
+    "voxel_size": 32,
+    "synthetic_samples": 256
+  },
+  "training": {
+    "batch_size": 8,
+    "epochs": 5,
+    "learning_rate": 0.001,
+    "weight_decay": 0.00001,
+    "device": "cpu",
+    "num_workers": 0,
+    "checkpoint_dir": "checkpoints",
+    "log_every": 10
+  },
+  "app": {
+    "checkpoint_path": "checkpoints/best.pt",
+    "host": "127.0.0.1",
+    "port": 7860
+  }
+}
