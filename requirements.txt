@@ -1,0 +1,7 @@
+torch
+numpy
+matplotlib
+opencv-python
+scikit-image
+open3d
+notebook
