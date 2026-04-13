@@ -69,7 +69,7 @@ results/
 ## 🎥 Demo
 
 A short demo video (2–3 minutes) is included in:
-video/demo.mp4
+video/demo.webm
 
 ---
 
