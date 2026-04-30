@@ -58,10 +58,15 @@ results/
 
 .
 ├── code/
-│   └── final_code.ipynb
+
+│     └── final_code.ipynb
+
 ├── images/
+
 ├── results/
+
 ├── README.md
+
 ├── requirements.txt
 
 ---
